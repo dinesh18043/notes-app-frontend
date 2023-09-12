@@ -1,0 +1,45 @@
+.smallbox {
+    /* width: 80%; */
+    height: 530px;
+
+}
+
+.homediv {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.flexing {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+    /* flex-direction: row; */
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 70px;
+    border: solid rgba(255, 255, 255, 0.18);
+}
+
+.gradd {
+    height: 50px;
+    width: 40px;
+}
+
+.add:hover {
+    background-color: rgba(153, 224, 224, 0.966);
+}

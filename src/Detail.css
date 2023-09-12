@@ -1,0 +1,55 @@
+.main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 825px;
+    max-height: 830px;
+}
+
+.detail {
+    /* background-color: aquamarine; */
+    /* background-image: url("F: /notes-app/frontend/src/assets/bg.png"); */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 50%;
+    border-style: outset;
+}
+
+.in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: gray; */
+
+}
+
+
+
+.title {
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-bottom: 1px solid #888;
+}
+
+
+.desc {
+    /* background-color: rosybrown; */
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.desc>p {
+    font-size: 20px;
+}
+
+.butt {
+    border-radius: 10px;
+}
